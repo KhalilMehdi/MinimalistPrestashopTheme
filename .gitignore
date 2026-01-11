@@ -1,0 +1,37 @@
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs & cache
+/var/cache/
+/var/logs/
+/log/
+/cache/
+
+# Config sensible
+/app/config/parameters.php
+/config/settings.inc.php
+
+# Uploaded files
+/img/
+/upload/
+/download/
+
+# Modules téléchargés
+/modules/*/
+!/modules/.gitkeep
+
+# Vendor (si tu ne veux pas versionner les dépendances)
+#/vendor/
+
+# Admin folder (renommé automatiquement)
+admin*/
+
+# Local env
+.env
+.env.local
+
+# Node / build
+node_modules/
+dist/
